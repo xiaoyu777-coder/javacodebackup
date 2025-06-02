@@ -3,7 +3,10 @@ public class ShuZu6 {
         int[] arr = { 33, 5, 22, 44, 55 };
         int max = arr[0];
         for (int i = 0; i < arr.length; i++) {
-            arr[i]
+            if (arr[i] > max){
+                max = arr[i];
+            }
         }
+        System.out.println(max);
     }
 }
