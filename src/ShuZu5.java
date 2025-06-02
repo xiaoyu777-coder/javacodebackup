@@ -3,7 +3,7 @@ public class ShuZu5 {
         int[] arr = new int[3];
         arr[0] = 1;
         arr[1] = 2;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i : arr) {
            System.out.println(arr[i]);
         }
     }
