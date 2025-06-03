@@ -5,9 +5,9 @@ public class ShuZu7 {
         // 获取数组的长度
         int max = arr.length;
         // 初始化平均值和总和变量
-        int avg, sum = 0;
+        double avg, sum = 0;
         // 遍历数组，计算总和
-        for (int temp : arr) {
+        for (double temp : arr) {
             sum += temp;
         }
         // 计算平均值
