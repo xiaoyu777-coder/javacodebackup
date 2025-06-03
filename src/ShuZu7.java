@@ -7,7 +7,8 @@ public class ShuZu7 {
         // 初始化平均值和总和变量
         int avg, sum = 0;
         // 遍历数组，计算总和
-        for (int temp : arr) {
+        for (int i = 0; i < max; i++) {
+            int temp = arr[i];
             sum += temp;
         }
         // 计算平均值
