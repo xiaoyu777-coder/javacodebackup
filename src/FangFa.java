@@ -38,7 +38,7 @@ public class FangFa {
         int num = sc.nextInt();
         if (num == 1) {
             caishuzi();
-        }else{
+        }else if (num == 2) {
             FengQiGuo();
         }else{
             System.out.println("输入错误");
