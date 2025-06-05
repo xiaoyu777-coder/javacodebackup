@@ -40,6 +40,8 @@ public class FangFa {
             caishuzi();
         }else{
             FengQiGuo();
+        }else{
+            System.out.println("输入错误");
         }
     }
 }
