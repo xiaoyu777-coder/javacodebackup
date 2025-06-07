@@ -12,7 +12,7 @@ public class FangFa {
             int randomNum2 = sc.nextInt();
             if (randomNum2 == -1) {
                 System.out.println("退出游戏");
-                break;
+                return;
             }
             if (randomNum2 < randomNum) {
                 System.out.println("猜小了");
@@ -23,14 +23,15 @@ public class FangFa {
                 System.out.println("还要继续游戏吗？");
                 System.out.println("1.继续 2.退出");
                 int num = sc.nextInt();
-                if (num == 1) {
-                    caishuzi();
-                }else if (num == 2) {
+                if (num == 2) {
                     System.out.println("退出游戏");
-                    break;
+                    return;
+                } else if (num == 1) {
+                    caishuzi();
                 }else {
                     System.out.println("输入错误");
                 }
+                break;
             }
         }
     }
