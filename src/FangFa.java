@@ -7,15 +7,30 @@ public class FangFa {
         int randomNum = rand.nextInt(100) + 1;
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入你要猜的数字：");
+        System.out.println("输入-1退出");
         while (true) {
             int randomNum2 = sc.nextInt();
+            if (randomNum2 == -1) {
+                System.out.println("退出游戏");
+                break;
+            }
             if (randomNum2 < randomNum) {
                 System.out.println("猜小了");
             } else if (randomNum2 > randomNum) {
                 System.out.println("猜大了");
             } else {
                 System.out.println("猜对了!!!");
-                break;
+                System.out.println("还要继续游戏吗？");
+                System.out.println("1.继续 2.退出");
+                int num = sc.nextInt();
+                if (num == 1) {
+                    caishuzi();
+                }else if (num == 2) {
+                    System.out.println("退出游戏");
+                    break;
+                }else {
+                    System.out.println("输入错误");
+                }
             }
         }
     }
