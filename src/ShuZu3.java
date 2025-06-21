@@ -11,4 +11,3 @@ public class ShuZu3 {
         System.out.println("有" + count + "个元素能被3整除");
     }
 }
-
