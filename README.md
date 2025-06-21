@@ -1,5 +1,5 @@
 # I'M WATCHING YOU!!!
 # 别搞怪
-### this is private repo
+### Private repo
 
-### it's save my java test code
+### This is a backup of my Java test code.
