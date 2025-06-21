@@ -26,7 +26,7 @@ public class FangFa {
                 if (num == 2) {
                     System.out.println("退出游戏");
                     return;
-                } else if (num == 1) {
+                }else if (num == 1) {
                     caishuzi();
                 }else {
                     System.out.println("输入错误");
