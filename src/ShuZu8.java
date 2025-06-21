@@ -16,6 +16,13 @@ public class ShuZu8 {
         for (int i = 0; i < arr1.length; i++) {
             sum += arr1[i];
         }
-        System.out.println(sum);
+        System.out.println("和为：" + sum);
+        int avg, sum2 = 0;
+        int max =arr1.length;
+        for (int i = 0; i < arr1.length; i++) {
+            sum2 += arr1[i];
+        }
+        avg = sum2 / max;
+        System.out.println("平均值为：" + avg);
     }
 }
