@@ -28,5 +28,10 @@ public class ShuZu8 {
             }
         }
         System.out.println("有" + count + "个数据比平均值小");
+        //验证
+        System.out.println("以下是验证数组");
+        for(int i = 0 ; i < arr1.length ; i++) {
+            System.out.print(arr1[i]+" ");
+        }
     }
 }
