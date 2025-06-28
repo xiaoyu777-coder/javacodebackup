@@ -17,9 +17,18 @@ public class ShuZu8 {
             sum += arr1[i];
         }
         System.out.println("和为：" + sum);
+        //平均值
         int avg= 0;
         int max =arr1.length;
         avg = sum / max;
         System.out.println("平均值为：" + avg);
+        //有多少个数据比平均值小
+        int count = 0;
+        for (int i = 0; i < arr1.length; i++) {
+            if(arr1[i] == avg){
+                count++;
+            }
+        }
+        System.out.println("有" + count + "个数据比平均值小");
     }
 }
