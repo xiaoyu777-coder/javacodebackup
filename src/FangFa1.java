@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class FangFa {
+public class FangFa1 {
     static void caishuzi() {
         Random rand = new Random();
         int randomNum = rand.nextInt(100) + 1;
