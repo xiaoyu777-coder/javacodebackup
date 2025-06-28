@@ -18,9 +18,7 @@ public class ShuZu8 {
         }
         System.out.println("和为：" + sum);
         //平均值
-        int avg= 0;
-        int max =arr1.length;
-        avg = sum / max;
+        int avg = sum / arr1.length;
         System.out.println("平均值为：" + avg);
         //有多少个数据比平均值小
         int count = 0;
