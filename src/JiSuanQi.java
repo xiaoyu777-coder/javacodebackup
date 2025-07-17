@@ -34,7 +34,7 @@ public class JiSuanQi {
         Random random = new Random();
         int num = sc.nextInt();
         for (int i = 0; i < num; i++) {
-            int randomNumber = random.nextInt(100) + 1; // 生成0到99之间的随机整数
+            int randomNumber = random.nextInt(100) + 1; // 生成0到100之间的随机整数
             System.out.println(randomNumber);
         }
     }
