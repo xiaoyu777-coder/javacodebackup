@@ -1,4 +1,4 @@
-import java.util.Scanner;  // 导入Scanner类用于控制台输入
+import java.util.Scanner;
 
 public class Sanyuanyunsuanfu2 {
     public static void main(String[] args) {

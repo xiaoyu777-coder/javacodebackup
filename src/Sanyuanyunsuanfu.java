@@ -1,4 +1,4 @@
-import java.util.Scanner;  // 导入输入处理类
+import java.util.Scanner;
 
 public class Sanyuanyunsuanfu {
     public static void main(String[] args) {
